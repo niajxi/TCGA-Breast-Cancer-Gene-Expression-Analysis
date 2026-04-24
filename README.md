@@ -21,7 +21,7 @@ This project looks at RNA-seq gene expression data from TCGA breast cancer sampl
 ### Differential Expression
 The volcano plot shows a clear set of genes that are significantly up- or downregulated in tumor samples. Even with a simple statistical approach, there’s a noticeable shift in expression for certain genes, suggesting real biological differences between conditions.
 ### PCA
-PCA shows partial separation between tumor and normal samples. It’s not perfectly clean (which is expected with biological data), but there’s definitely structure—tumor samples tend to group together more than with normals.
+PCA shows partial separation between tumor and normal samples. It’s not perfectly clean which is expected with biological data, but there is a trend of the structure—tumor samples tending to group together with each other more than with the normal samples.
 ### Heatmap
 The heatmap of the top differentially expressed genes shows clear clustering. Samples tend to group by condition, and genes with similar expression patterns cluster together, which points to coordinated regulation.
 
